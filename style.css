@@ -1,0 +1,53 @@
+h1
+color
+/* селектори тега (елемента)*/
+header
+backgroand-color: 
+/* селектои класу */
+.first-section {
+    color:
+}
+
+/* сектор ідентифікатора */
+#main {
+    background-color:brown ;
+}
+
+/* дочірні селектори */
+header p {
+    text-transform: uppercase;
+}
+
+header div p {
+    color:yellow;
+}
+
+/* селектор нащадка */
+header > p {
+    color:darkmagenta;
+}
+/* групові селектори */
+header, main, footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* сусідній селектор */
+hr + article {
+background-color: mediumorchid;
+}
+
+/* споріднений селектор */
+article ~ hr {
+    height: 6px;
+    background-color: black;
+}
+
+/* селектор атрибута */
+a[href] {
+    background-color: green;
+}
+
+a[href^-tel] {
+    background-color: 
+
